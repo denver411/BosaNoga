@@ -2,6 +2,9 @@ a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+.h3 {
+  text-transform: uppercase;
+}
 .order-wrapper {
   max-width: 1118px;
 }

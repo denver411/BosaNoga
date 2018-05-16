@@ -20,17 +20,17 @@ block content
         section.order-process
             h2.order-process__title Оформление заказа
             .order-process__basket.order-basket
-                .order-basket__title В ВАШЕЙ КОРЗИНЕ:
+                .order-basket__title в вашей корзине:
                 .order-basket__item-list
                     include blocks/basket-item  
                     include blocks/basket-item                    
-                .order-basket__summ Итого:
+                .order-basket__summ Итого:&nbsp
                     span 12 050 
                         i.fa.fa-rub(aria-hidden='true')
             .order-process__confirmed
                 form(action="#")
                     .order-process__delivery
-                        h3.h3 КОМУ И КУДА ДОСТАВИТЬ?
+                        h3.h3 кому и куда доставить?
                         .order-process__delivery-form
                             label.order-process__delivery-label
                                 .order-process__delivery-text Имя
@@ -43,7 +43,7 @@ block content
                                 input.order-process__delivery-input.order-process__delivery-input_adress(type='text', name='delivery', placeholder='Ваша покупка будет доставлена по этому адресу')
                         p Все поля обязательны для заполнения. Наш оператор свяжется с вами для уточнения деталей заказа.
                     .order-process__paid
-                        h3.h3 ХОТИТЕ ОПЛАТИТЬ ОНЛАЙН ИЛИ КУРЬЕРУ ПРИ ПОЛУЧЕНИИ?
+                        h3.h3 хотите оплатить онлайн или курьеру при получении?
                         .order-process__paid-form
                             label.order-process__paid-label
                                 input.order-process__paid-radio(type='radio', name='paid', value='card-online')

@@ -238,7 +238,7 @@ li a:hover {
   height: 80%;
   font-weight: 300;
   font-size: 14px;
-  color: #D6D6D6;
+  color: #333333;
   border: none;
   outline: none;
 }
@@ -766,7 +766,7 @@ li a:hover {
   font-weight: 300;
   font-size: 14px;
   vertical-align: middle;
-  color: #D6D6D6;
+  color: #333333;
   background: #FFFFFF;
   border: none;
   outline: none;

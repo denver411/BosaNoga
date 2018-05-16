@@ -43,6 +43,7 @@ li a:hover {
   text-align: center;
   font-weight: bold;
   font-size: 28px;
+  text-transform: uppercase;
   color: #333333;
 }
 .arrow {
@@ -362,7 +363,6 @@ li a:hover {
   font-weight: bold;
   font-size: 48px;
   line-height: 98px;
-  text-transform: uppercase;
   text-align: center;
   color: #FFFFFF;
   background: linear-gradient(270deg, rgba(161, 179, 191, 0.8) 72.59%, rgba(161, 179, 191, 0) 98.05%);
@@ -421,9 +421,6 @@ li a:hover {
   margin: 0 auto;
   padding: 44px 20px 50px;
 }
-.new-deals h2 {
-  text-transform: uppercase;
-}
 .new-deals__menu {
   padding-top: 23px;
   border-bottom: 2px solid #F4F5F2;
@@ -436,9 +433,10 @@ li a:hover {
   align-items: center;
 }
 .new-deals__menu-item {
+  padding-bottom: 10px;
   list-style: none;
   text-align: center;
-  padding-bottom: 10px;
+  text-transform: uppercase;
 }
 .new-deals__menu-item a {
   text-decoration: none;
@@ -677,6 +675,7 @@ li a:hover {
   font-size: 12px;
   line-height: 1;
   text-align: center;
+  text-transform: uppercase;
   color: #B4C5D0;
   background: #FFFFFF;
   border: 1px solid #AFC1CD;

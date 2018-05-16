@@ -61,7 +61,6 @@ li a:hover {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
-
 .header .top-menu {
   min-height: 49px;
   height: 1px;
@@ -363,6 +362,7 @@ li a:hover {
   font-weight: bold;
   font-size: 48px;
   line-height: 98px;
+  text-transform: uppercase;
   text-align: center;
   color: #FFFFFF;
   background: linear-gradient(270deg, rgba(161, 179, 191, 0.8) 72.59%, rgba(161, 179, 191, 0) 98.05%);
@@ -420,6 +420,9 @@ li a:hover {
   max-width: 1036px;
   margin: 0 auto;
   padding: 44px 20px 50px;
+}
+.new-deals h2 {
+  text-transform: uppercase;
 }
 .new-deals__menu {
   padding-top: 23px;
@@ -703,9 +706,9 @@ li a:hover {
 .subscribe__title {
   font-weight: bold;
   font-size: 14px;
+  text-transform: uppercase;
   color: #333333;
   mix-blend-mode: normal;
-  text-transform: uppercase;
 }
 .subscribe__radios {
   display: flex;
